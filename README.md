@@ -3,4 +3,4 @@ creates cards for tourney scenarios and individual unit card stats.
 
 ## Generated PDF's for printing:
 
-* ![Tournament Scenario Cards](tourney_pack_card_maker/playing_cards.pdf)
+* [Tournament Scenario Cards](tourney_pack_card_maker/playing_cards.pdf) - Designed to be put in clear playing cards sleeves.
