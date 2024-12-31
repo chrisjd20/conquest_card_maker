@@ -169,7 +169,13 @@ def create_card_pdf(output_pdf_path, images_and_texts):
 
 # Parameters
 pdf_file_path = "TLAOK_TOURNAMENT_SCENARIO_PACK_April-Update.pdf"
-output_pdf_path = "playing_cards.pdf"
+output_pdf_path = "tourney_scenario_playing_cards.pdf"
+page_range = range(7, 19)  # Pages 7 to 18 (inclusive)
+
+process_pdf_high_res_to_cards(pdf_file_path, output_pdf_path, page_range)
+
+pdf_file_path = "LAST-ARGUMENTOF-KINGS_ADDITIONAL-SCENARIOS_MARCH-UPDATE.pdf"
+output_pdf_path = "original_scenario_playing_cards.pdf"
 page_range = range(7, 19)  # Pages 7 to 18 (inclusive)
 
 process_pdf_high_res_to_cards(pdf_file_path, output_pdf_path, page_range)
